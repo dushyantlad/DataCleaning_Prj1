@@ -85,4 +85,4 @@ tidy_mean_df <-ddply(tidy_df, .(Subject,Activity), numcolwise(mean,na.rm = TRUE)
 rm(tidy_df)
 
 #final tidy set
-tidy_mean_df
+write.table(tidy_mean_df, fil="tidy_mean_df.txt",  row.names="TRUE")
