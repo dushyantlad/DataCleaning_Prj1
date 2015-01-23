@@ -1,11 +1,11 @@
 DATA DICTIONARY
 
 Subject		1
-	Subject
+	Subject number/id
 		Number 1 to 30 representing indivitual whose measurements were recorded
 	
 Activity 	17
-	Activity
+	Type of Activity
 		WALKING
 		WALKING_UPSTAIRS
 		WALKING_DOWNSTAIRS
@@ -81,3 +81,4 @@ Activity 	17
  fBodyBodyGyroJerkMag-std() 
 									17
 				Numeric field representing average measurements of subject's activity  
+				Range: -1 to 1 (unitless)
